@@ -148,18 +148,14 @@
   color: grey;
 }
 
-.apply button {
-  height: 45px;
-  width: 200px;
+.dropdown button {
   background-color: black;
   color: white;
-  border: 1px solid white;
 }
-.apply :hover {
-  background-color: red;
-  border: 1px solid red;
+.dropdown button:hover {
+  background-color: black;
+  color: white;
 }
-
 .allbox b {
   color: white;
 }
