@@ -1,0 +1,24 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.partner {
+  padding: 55px;
+}
+.partner h2 {
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  color: #212529;
+  text-align: center;
+}
+.partner img {
+  padding-top: 70px;
+}
+.partner .slick-prev {
+  background-color: white !important;
+}
+.partner .slick-next {
+  background-color: white !important;
+}

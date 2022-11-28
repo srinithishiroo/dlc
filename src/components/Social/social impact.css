@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.cial {
+  padding: 70px;
+  align-items: center;
+  justify-content: center;
+}
+.cial {
+  padding-left: 100px;
+}
+.cial h1 {
+  font-size: 45;
+  font-weight: 700;
+  text-align: start;
+  color: #212529;
+  font-family: "Manrope", sans-serif;
+  padding-bottom: 50px;
+}
+.slick-next {
+  position: absolute !important;
+  top: -20% !important;
+  left: 95%;
+
+  display: block !important;
+  width: 60px !important;
+  height: 50px !important;
+  padding: 0 !important;
+  background-color: black !important;
+}
+.slick-prev {
+  position: absolute !important;
+  top: -20% !important;
+  left: 90%;
+  display: block !important;
+  width: 60px !important;
+  height: 50px !important;
+  padding: 0 !important;
+  background-color: black !important;
+}
+.even .slick-next:before {
+  color: aliceblue;
+}
+.even .slick-prev:before {
+  color: aliceblue;
+}
+.cial p {
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  color: black;
+  margin-top: 40px;
+}
+
+.cial h3 {
+  font-size: 14px;
+  color: black;
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 25px;
+  padding-bottom: 30px;
+  font-size: 17px;
+  font-family: "Manrope", sans-serif;
+}
+.inter button {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  font-size: 12px;
+  height: 30px;
+  width: 100px;
+  font-weight: 700;
+  color: #cc0000;
+  border: 1px solid #cc0000;
+  margin-top: 30px;
+  font-family: "Manrope", sans-serif;
+}
+button:hover {
+  background-color: #cc0000;
+  color: aliceblue;
+}
