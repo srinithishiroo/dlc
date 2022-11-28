@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.pic {
+  background-color: #222222;
+  transition: 0.3s ease-in-out;
+  margin: 50px 150px;
+  height: 320px;
+  display: flex;
+  flex-direction: row;
+  background: #222222 url(../../assets/images/Rectangle-3.png) no-repeat left -80px;
+}
+.text_2 {
+  color: white;
+  padding-left: 400px;
+  padding-top: 50px;
+  text-align: right;
+}
+.text_2 h2 {
+  font-size: 50px;
+  font-family: "Saira Condensed";
+}
+.text_2 p {
+  font-size: 18px;
+  font-family: "Manrope";
+  color: #797979;
+  font-weight: 600;
+  line-height: 30px;
+}
+.text_2 a {
+  font: 18px;
+  text-decoration: none;
+  font-family: "Manrope";
+  color: red;
+  line-height: 60px;
+}
+.text_2 b {
+  color: #ffffff;
+}
+.pic :hover {
+  transform: translateY(-15px);
+  color: #ffffff;
+}

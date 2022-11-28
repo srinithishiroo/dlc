@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.more_people {
+  background: url(../../assets/images/people.jpg) center;
+  width: 1500px;
+  height: 700px;
+  background-size: cover;
+}
+
+.gray {
+  width: 650px;
+  display: flex;
+  flex-direction: row;
+  width: 1280px;
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+  padding: 0px 15px;
+}
+
+.gray p {
+  padding-top: 200px;
+  font-size: 32px;
+  padding-left: 150px;
+  font-family: "Manrope";
+  font-weight: 900;
+}
+
+.gray button {
+  height: 50px;
+  width: 100px;
+  font-family: "Manrope";
+  color: black;
+  font-weight: 900;
+}
+
+.button :hover {
+  color: white;
+  border-radius: 1px solid red;
+}
+
+/* image {
+  transform: rotate(360deg);
+} */
+
+.rot img {
+  width: 600px;
+  height: 600px;
+  animation: rotation 25s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.bgg {
+  position: absolute;
+  left: 0px;
+  height: 100%;
+  background: #222222;
+  width: 40%;
+}
+
+.rot {
+  padding-top: 50px;
+}

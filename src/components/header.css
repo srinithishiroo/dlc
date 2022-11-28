@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../../src/assets/fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../../src/assets/fonts/Montserrat-SemiBold.ttf");
+}
+.header {
+  background-color: black;
+  position: relative;
+  z-index: 1;
+}
+.logo {
+  padding-left: 155px;
+}
+.allbox {
+  background-color: rgb(8, 6, 6);
+  height: 600px;
+}
+.box {
+  background-color: rgba(57, 55, 61, 0.062);
+  width: 800px;
+  height: 800px;
+  padding: 50px;
+  transform: rotate(-45deg) translate(-50%, -50%);
+  position: absolute;
+  left: 70%;
+  bottom: 25%;
+}
+.box_over {
+  background-color: rgba(255, 255, 255, 0.05);
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  height: 90px;
+}
+.contenthead {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  padding-top: 25px;
+  flex-grow: 1;
+  margin-left: 400px;
+  gap: 30px;
+  align-items: center;
+}
+.contenthead div a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+.join {
+  height: 45px;
+  width: 120px;
+  background-color: #cc0000;
+  border-radius: 20px;
+  color: white;
+  padding: 5px 15px;
+  margin: 0px 0px 5px;
+  font-size: 14px;
+}
+.join:hover {
+  background-color: black;
+  border: 1px solid white;
+}
+
+.allbox {
+  color: white;
+  font-size: 55px;
+  padding-left: 140px;
+  padding-top: 25px;
+  line-height: 28px;
+  font-weight: 800;
+}
+.allbox p {
+  font-size: 18px;
+  padding-top: 40px;
+  font-family: "Manrope";
+  color: #797979;
+}
+
+.bld {
+  font-family: "Saira Condensed";
+  line-height: 60px;
+}
+
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown a {
+  font-size: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-family: "Manrope";
+  font-weight: 10;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+
+  will-change: transform;
+  transform: scale(0.8);
+}
+
+.dropdown-content a:hover {
+  background-color: black;
+  transform: translateX(5%);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown hr {
+  color: grey;
+}
+
+.apply button {
+  height: 45px;
+  width: 200px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+.apply :hover {
+  background-color: red;
+  border: 1px solid red;
+}
+
+.allbox b {
+  color: white;
+}
+
+.videoo {
+  width: 738px;
+  height: 410px;
+  left: 45%;
+  top: 25%;
+  bottom: 10%;
+  display: block;
+  overflow: hidden;
+
+  position: absolute;
+  object-fit: cover;
+}
+
+.menutwo img {
+  width: 59px;
+  height: 59px;
+  animation: rotation 6s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
