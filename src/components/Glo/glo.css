@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.next_slide {
+  padding: 55px;
+}
+.next_slide .slick-prev {
+  background-color: white !important;
+}
+.next_slide .slick-next {
+  background-color: white !important;
+}

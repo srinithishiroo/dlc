@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.soci {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.mate h1 {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+  font-weight: 600;
+  font-family: "Manrope", sans-serif;
+  margin-bottom: 15px;
+}
+.mate p {
+  font-size: 18px;
+  color: #646464;
+  font-family: "Manrope", sans-serif;
+  font-weight: 100;
+}
+.Apply button {
+  width: 220px;
+  height: 50px;
+  font-family: "Manrope", sans-serif;
+  margin-top: 40px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #cc0000;
+  border: 1px solid;
+  color: white;
+}
+.Apply button:hover {
+  background-color: rgb(59, 58, 58);
+}

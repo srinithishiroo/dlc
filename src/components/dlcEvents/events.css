@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.work-shop {
+  padding: 70px;
+  align-items: center;
+  justify-content: center;
+}
+.even {
+  padding-left: 40px;
+}
+.even h1 {
+  font-size: 45;
+  font-weight: 700;
+  text-align: start;
+  color: #212529;
+  font-family: "Manrope", sans-serif;
+}
+.slick-next {
+  position: absolute !important;
+  top: -20% !important;
+  left: 95%;
+
+  display: block !important;
+  width: 60px !important;
+  height: 50px !important;
+  padding: 0 !important;
+  background-color: black !important;
+}
+.slick-prev {
+  position: absolute !important;
+  top: -20% !important;
+  left: 90%;
+  display: block !important;
+  width: 60px !important;
+  height: 50px !important;
+  padding: 0 !important;
+  background-color: black !important;
+}
+.work-shop p {
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  color: black;
+  margin-top: 40px;
+}
+.work-shop h3 {
+  font-size: 14px;
+  color: black;
+  line-height: 20px;
+  font-weight: 900px;
+  font-family: "Manrope", sans-serif;
+}
+.work-shop h4 {
+  font-size: 14px;
+  color: black;
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 55px;
+  padding-bottom: 30px;
+  font-family: "Manrope", sans-serif;
+}
+.outer a {
+  width: 90px;
+  height: 30px;
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  font-size: 1000;
+  margin-top: 50px;
+  font-family: "Manrope", sans-serif;
+}
+a:hover {
+  color: #cc0000;
+}
