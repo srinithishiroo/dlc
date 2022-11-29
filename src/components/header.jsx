@@ -24,7 +24,7 @@ const Head = () => {
             <div class="dropdown">
               <button class="dropbtn">Member Offerings</button>
               <div class="dropdown-content">
-                <a href="#">Forum</a> <hr></hr>
+                <Link to="forum"> Forum</Link> <hr></hr>
                 <a href="#">Events</a> <hr></hr>
                 <a href="#"> Global Summits</a> <hr></hr>
                 <a href="#"> Brand Experiences</a>
