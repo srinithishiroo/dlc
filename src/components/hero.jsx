@@ -30,9 +30,6 @@ const Hero = () => {
         <div className="box_over"></div>
       </div>
       <div className="videoo">
-        {/* <video controls autoPlay loop id="myvideo">
-          <source src={video1} type="video/mp4" />
-        </video> */}
         <img src={Della} width="738px" height="410px" />
       </div>
     </div>

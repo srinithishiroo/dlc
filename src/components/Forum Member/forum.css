@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.top_flex {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 150px;
+  background-color: white;
+  justify-content: space-evenly;
+  font-size: 14.4px;
+  font-family: "Manrope";
+  font-weight: 650;
+  color: #161616;
+  padding: 20px 0px;
+}
+.top_flex b {
+  color: black;
+}
+
+.words h1 {
+  font-size: 43.2px;
+  font-family: "Manrope";
+  color: white;
+}
+.words h3 {
+  font-size: 18px;
+  font-family: "Manrope";
+  color: white;
+}
+
+.two_box {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 60px;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+
+.two_box {
+  background: url(../../assets//images/forumbg.png), no-repeat;
+  height: 250px;
+}
+
+.words {
+  padding: 30px 0px;
+}
+
+.join_dlc {
+  background-color: black;
+  color: white;
+  padding: 70px 0px 70px 0px;
+  text-align: center;
+  display: block;
+}
+
+.join_dlc h2 {
+  font-size: 36px;
+  font-family: "Manrope";
+}
+.join_dlc p {
+  font-size: 18.72px;
+  font-family: "Manrope";
+  font-weight: 600;
+  line-height: 30px;
+}
+.join_dlc button {
+  height: 40px;
+  width: 200px;
+  background-color: red;
+  border-color: red;
+  color: white;
+  font-weight: 400;
+  padding: 12px 20px;
+}
+
+.join_dlc button:hover {
+  background-color: grey;
+  border: 1px solid white;
+}
+.ring h2 {
+  text-align: center;
+}
+
+/* .years {
+  display: flex;
+  flex-direction: row;
+} */
+
+.r1 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.r2 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.r3 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.r4 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.ring {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px 90px;
+}
+
+.his {
+  text-align: center;
+  font-size: 26px;
+  font-family: "Manrope";
+  padding: 70px 0px;
+}
+
+.r1 h1 {
+  font-size: 36px;
+  font-family: "Manrope";
+}
+.r2 h1 {
+  font-size: 36px;
+  font-family: "Manrope";
+}
+
+.r3 h1 {
+  font-size: 36px;
+  font-family: "Manrope";
+}
+
+.r4 h1 {
+  font-size: 36px;
+  font-family: "Manrope";
+}
+
+.ring p {
+  font-size: 16px;
+  font-family: "Manrope";
+  font-weight: 550;
+}
+.joiningg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 260px 0px;
+}
+
+.joiningg h1 {
+  font-size: 50px;
+  color: #fffffcff;
+  font-family: "Manrope";
+  font-weight: 900;
+}
+
+.flex_flex {
+  color: #fffffcff;
+  font-family: "Manrope";
+  font-size: 20px;
+}

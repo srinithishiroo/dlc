@@ -20,6 +20,7 @@ import Upcoming from "./components/upcome/up";
 import Dis from "./components/discover/dis";
 import Peo from "./components/people/people";
 import Footer from "./components/footer/footer";
+import Forum from "./components/Forum Member/forum";
 
 const App = () => {
   return (
@@ -42,6 +43,8 @@ const App = () => {
       <Dis />
       <Peo />
       <Footer />
+
+      <Forum />
     </>
   );
 };
