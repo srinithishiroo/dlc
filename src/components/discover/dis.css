@@ -31,9 +31,11 @@
 .glo button {
   height: 40px;
   width: 250px;
+  border-color: black;
   color: black;
 }
-.glo button :hover {
+.glo button:hover {
+  background-color: #cc0000;
   color: white;
-  border: 1px solid red;
+  border-color: #cc0000;
 }

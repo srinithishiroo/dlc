@@ -42,7 +42,7 @@ const Head = () => {
               </div>
             </div>
 
-            <div class="dropdown">
+            <div class="c">
               <button class="join">Join Us</button>
               <div class="dropdown-content">
                 <a href="#">Apply For Membership</a> <hr></hr>

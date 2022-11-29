@@ -38,12 +38,14 @@
   width: 100px;
   font-family: "Manrope";
   color: black;
+  background-color: white;
   font-weight: 900;
 }
 
-.button :hover {
+.gray button:hover {
+  background-color: #cc0000;
   color: white;
-  border-radius: 1px solid red;
+  border-color: #cc0000;
 }
 
 /* image {
@@ -68,7 +70,7 @@
 .bgg {
   position: absolute;
   left: 0px;
-  height: 100%;
+  height: 94%;
   background: #222222;
   width: 40%;
 }
