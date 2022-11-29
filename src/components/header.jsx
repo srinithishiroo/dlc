@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+import { Link } from "react-router-dom";
 
 const Head = () => {
   const logo = new URL("../assets/images/logo.svg", import.meta.url);
@@ -11,9 +12,9 @@ const Head = () => {
     <>
       <div className="header">
         <div className="logo">
-          <a href="#">
+          <Link to="/Home">
             <img src={logo} width="90px" height="90px" />
-          </a>
+          </Link>
 
           <div className="contenthead">
             <div>
@@ -28,7 +29,7 @@ const Head = () => {
                 <a href="#"> Global Summits</a> <hr></hr>
                 <a href="#"> Brand Experiences</a>
                 <hr></hr>
-                <a href="#"> Social Impacts</a>
+                <a href="/"> Social Impacts</a>
               </div>
             </div>
 
@@ -45,7 +46,7 @@ const Head = () => {
               <button class="join">Join Us</button>
               <div class="dropdown-content">
                 <a href="#">Apply For Membership</a> <hr></hr>
-                <a href="#">Enquire Now</a> <hr></hr>
+                <Link to="/enquiery">Enquire Now</Link> <hr></hr>
               </div>
             </div>
 

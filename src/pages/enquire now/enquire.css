@@ -1,0 +1,235 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.now {
+  background-image: url(../../assets/images/contact-banner-new.png);
+  background-repeat: no-repeat;
+  height: 400px;
+  text-align: center;
+}
+.now h1 {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  padding-top: 60px;
+}
+.now p {
+  font-size: 25px;
+  font-family: "Manrope", sans-serif;
+  color: white;
+}
+.touch h2 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Saira Condensed";
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+.question p {
+  color: black;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Manrope", sans-serif;
+  padding: 15px;
+  padding-left: 70px;
+}
+.question a {
+  color: #cc0000;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Manrope", sans-serif;
+}
+.gt {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.palce {
+  margin-left: 10%;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.comman {
+  width: 550px;
+  height: 50px;
+  background-color: #e3e3e3;
+  border-color: #e3e3e3;
+  border-radius: 5px;
+  border: 1px solid #e3e3e3;
+  font-size: 20px;
+  color: black;
+  padding-left: 20px;
+  padding: 30px;
+}
+.btns {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 25px;
+  color: black;
+  font-family: "Saira Condensed";
+  border-color: #cc0000;
+  margin: auto;
+  margin-top: 30px;
+}
+.btns:hover {
+  background-color: #cc0000;
+  color: white;
+  font-size: 25px;
+  font-family: "Saira Condensed";
+}
+.reach {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.of p {
+  font-size: 30px;
+  color: #212529;
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
+}
+.of h1 {
+  font-size: 30px;
+  color: #212529;
+  letter-spacing: 5px;
+  font-family: "Saira Condensed";
+}
+.of a {
+  color: #cc0000;
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+.of {
+  padding-left: 30px;
+}
+.mage div {
+  width: 450px;
+  height: 500px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 1px 3px;
+}
+.maped img {
+  filter: grayscale(100%);
+  cursor: pointer;
+  position: relative;
+  padding-top: 30px;
+  padding-left: 15px;
+}
+img:hover {
+  filter: unset;
+}
+.mage {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.maped {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #e3e3e3;
+}
+.maped h1 {
+  margin-bottom: 80px;
+  font-size: 40px;
+  color: #212529;
+  font-family: "Manrope", sans-serif;
+}
+.non-images div {
+  width: 450px;
+  height: 300px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 1px 3px;
+  margin-top: 50px;
+}
+.non-images {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.mage .img {
+  margin-top: 70px;
+}
+.maped h6 {
+  color: black;
+  font-family: "Saira Condensed";
+  font-size: 35px;
+  padding-left: 15px;
+}
+.maped b {
+  color: black;
+  font-family: sans-serif;
+  font-size: 25px;
+  padding-left: 15px;
+}
+.maped p {
+  color: black;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding-left: 15px;
+}
+.maped a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  padding-top: 60px;
+}
+.maped a:hover {
+  color: #cc0000;
+}
+.contact-as {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 150px;
+  background-color: #e3e3e3;
+  margin-top: 100px;
+  gap: 40px;
+}
+.contact-as h1 {
+  font-size: 45px;
+  color: #212529;
+  font-family: sans-serif;
+}
+
+/*@media (max-width: 480px) {
+  .mage {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .non-images {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+@media (max-width: 782px) {
+  .mage {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .non-images {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}*/
