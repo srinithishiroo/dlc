@@ -166,3 +166,250 @@
   font-family: "Manrope";
   font-size: 20px;
 }
+
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown2 a {
+  font-size: 10px;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+
+  z-index: 1;
+  font-family: "Manrope";
+}
+
+.dropdown-content2 a {
+  text-decoration: none;
+  display: block;
+
+  will-change: transform;
+  transform: scale(0.8);
+}
+
+.dropdown-content2 a:hover {
+  transform: translateX(5%);
+}
+
+.dropdown2:hover .dropdown-content {
+  display: block;
+}
+.text_chapters {
+  text-align: center;
+  padding: 90px;
+}
+
+.text_chapters h1 {
+  font-size: 36px;
+  font-family: "Manrope";
+  font-weight: 900;
+}
+.text_chapters p {
+  font-size: 18px;
+  font-family: "Manrope";
+  color: #646464;
+  font-weight: 600;
+}
+.ball {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 350px;
+  background-color: black;
+  color: white;
+  /* height: 350px;
+  width: 1000px;
+  margin-left: 150px; */
+  margin-bottom: 60px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.ball p {
+  padding: 50px;
+  font-size: 16px;
+  font-family: "Manrope";
+  font-weight: 400;
+}
+.ball h1 {
+  font-size: 26px;
+  font-family: "Manrope";
+}
+.ball_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 350px;
+  background-color: black;
+  color: white;
+  /* height: 350px;
+  width: 1000px;
+  margin-left: 150px; */
+  margin-bottom: 60px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.ball_2 p {
+  padding: 50px;
+  font-size: 16px;
+  font-family: "Manrope";
+  font-weight: 400;
+}
+.ball_2 h1 {
+  font-size: 26px;
+  font-family: "Manrope";
+}
+.ball_3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 350px;
+  background-color: black;
+  color: white;
+  /* height: 350px;
+  width: 1000px;
+  margin-left: 150px; */
+  margin-bottom: 60px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.ball_3 p {
+  padding: 50px;
+  font-size: 16px;
+  font-family: "Manrope";
+  font-weight: 400;
+}
+.ball_3 h1 {
+  font-size: 26px;
+  font-family: "Manrope";
+}
+.te_xt {
+  text-align: center;
+  background-color: black;
+  padding-top: 90px;
+}
+
+.te_xt h1 {
+  font-size: 36px;
+  font-family: "Manrope";
+  color: white;
+}
+.te_xt p {
+  font-size: 16px;
+  font-family: "Manrope";
+  font-weight: 500;
+  color: white;
+  line-height: 35px;
+}
+.images_inbox {
+  display: flex;
+  flex-direction: row;
+
+  padding-top: 50px;
+  padding-left: 160px;
+}
+.images_inbox2 {
+  display: flex;
+  flex-direction: row;
+
+  padding-top: 50px;
+  padding-right: 160px;
+}
+.images_inbox3 {
+  display: flex;
+  flex-direction: row;
+
+  padding-top: 50px;
+  padding-left: 160px;
+}
+
+.images_inbox h1 {
+  font-size: 21.6px;
+  font-family: "Manrope";
+  color: white;
+}
+.images_inbox p {
+  font-size: 16px;
+  font-family: "Manrope";
+  font-weight: 500;
+  color: white;
+  text-align: left;
+  padding: 70px;
+  line-height: 30px;
+  padding-left: 50px;
+}
+
+.images_inbox2 h1 {
+  font-size: 21.6px;
+  font-family: "Manrope";
+  color: white;
+}
+.images_inbox2 p {
+  font-size: 16px;
+  font-family: "Manrope";
+  font-weight: 500;
+  color: white;
+  text-align: left;
+  padding: 110px;
+  line-height: 30px;
+  padding-right: 80px;
+}
+.images_inbox3 h1 {
+  font-size: 21.6px;
+  font-family: "Manrope";
+  color: white;
+}
+.images_inbox3 p {
+  font-size: 16px;
+  font-family: "Manrope";
+  font-weight: 500;
+  color: white;
+  text-align: left;
+  padding: 70px;
+  line-height: 30px;
+  padding-left: 50px;
+  padding-bottom: 190px;
+}
+.application {
+  color: white;
+}
+.application h2 {
+  font-size: 36px;
+  font-family: "Manrope";
+  font-weight: 700;
+}
+
+.application p {
+  font-size: 18px;
+  font-family: "Manrope";
+  /* padding: 50px; */
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.application button {
+  height: 40px;
+  width: 160px;
+  font-family: "Manrope";
+  background-color: red;
+  color: white;
+  border-color: red;
+  font-weight: 600;
+}
+.application button:hover {
+  background-color: gray;
+  border-color: white;
+  color: white;
+}
+/* .joinforum {
+  padding: 40px;
+} */
+
+.app_text {
+  padding-left: 300px;
+  padding-top: 70px;
+}

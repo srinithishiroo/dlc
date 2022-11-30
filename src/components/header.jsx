@@ -26,7 +26,7 @@ const Head = () => {
               <div class="dropdown-content">
                 <Link to="forum"> Forum</Link> <hr></hr>
                 <a href="#">Events</a> <hr></hr>
-                <a href="#"> Global Summits</a> <hr></hr>
+                <Link to="summit"> Global Summits</Link> <hr></hr>
                 <a href="#"> Brand Experiences</a>
                 <hr></hr>
                 <a href="/"> Social Impacts</a>

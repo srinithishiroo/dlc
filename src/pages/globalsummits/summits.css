@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.enjoy {
+  text-align: center;
+  padding: 50px;
+  color: white;
+  font-family: "Manrope";
+  font-weight: bolder;
+}
+.twelve_button button {
+  height: 50px;
+  width: 250px;
+  background-color: #cc0000;
+  border-color: #cc0000;
+  color: white;
+}
+.twelve_button button:hover {
+  background-color: #6c757d;
+  color: white;
+  border-color: white;
+}
+.enjoy h1 {
+  font-size: 46px;
+}
+.enjoy p {
+  font-size: 25px;
+}
+.aboutforum {
+  text-align: center;
+  /* padding: 40px; */
+}
+.aboutforum h1 {
+  font-family: "Saira Condensed";
+  padding-top: 60px;
+}
+.aboutforum p {
+  font-family: "Manrope";
+  padding-top: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  padding-bottom: 80px;
+}
+.awards {
+  display: flex;
+  background-color: black;
+  color: white;
+}
+.awards h1 {
+  font-family: "Saira Condensed";
+  color: #d7b46a;
+  letter-spacing: 0.1em;
+}
+.awards p {
+  font-family: "Manrope";
+  padding: 90px;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 500;
+}
+.awards {
+  padding: 0px 170px;
+  padding-top: 30px;
+}
+.awards hr {
+  color: #d7b46a;
+}
+.yellow button {
+  background-color: black;
+  height: 40px;
+  width: 220px;
+  border-color: red;
+  color: white;
+}
+.yellow button:hover {
+  background-color: red;
+  height: 40px;
+  width: 220px;
+  border-color: white;
+  color: white;
+}
+.yellow {
+  padding-top: 70px;
+}
