@@ -7,7 +7,6 @@ import Footer from "./components/footer/footer";
 import Home from "./pages/home";
 import Enquire from "./pages/enquire now/enquire";
 import Forum from "./pages/Forum Member/forum";
-import Summit from "./pages/globalsummits/summits";
 
 const App = () => {
   return (
@@ -18,7 +17,6 @@ const App = () => {
         <Route path="Home" element={<Home />} />
         <Route path="/enquiery" element={<Enquire />} />
         <Route path="forum" element={<Forum />} />
-        <Route path="summit" element={<Summit />} />
       </Routes>
       <Footer />
     </>

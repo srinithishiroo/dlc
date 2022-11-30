@@ -213,7 +213,7 @@ img:hover {
   font-family: sans-serif;
 }
 
-/*@media (max-width: 480px) {
+@media (max-width: 480px) {
   .mage {
     display: grid;
     grid-template-columns: auto;
@@ -232,4 +232,4 @@ img:hover {
     display: grid;
     grid-template-columns: auto auto;
   }
-}*/
+}
