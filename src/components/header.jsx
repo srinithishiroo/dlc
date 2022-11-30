@@ -24,7 +24,7 @@ const Head = () => {
             <div class="dropdown">
               <button class="dropbtn">Member Offerings</button>
               <div class="dropdown-content">
-                <Link to="forum"> Forum</Link> <hr></hr>
+                <Link to="/forum"> Forum</Link> <hr></hr>
                 <a href="#">Events</a> <hr></hr>
                 <a href="#"> Global Summits</a> <hr></hr>
                 <a href="#"> Brand Experiences</a>
@@ -36,16 +36,16 @@ const Head = () => {
             <div class="dropdown">
               <button class="dropbtn">Membership</button>
               <div class="dropdown-content">
-                <a href="#">What is DLC?</a> <hr></hr>
+                <Link to="/DLC">What is DLC?</Link> <hr></hr>
                 <a href="#">Individual membership</a> <hr></hr>
-                <a href="#"> Corporate Membership</a> <hr></hr>
+                <Link to="/corpo"> Corporate Membership</Link> <hr></hr>
               </div>
             </div>
 
             <div class="dropdown">
               <button class="join">Join Us</button>
               <div class="dropdown-content">
-                <a href="#">Apply For Membership</a> <hr></hr>
+                <Link to="/apply">Apply For Membership</Link> <hr></hr>
                 <Link to="/enquiery">Enquire Now</Link> <hr></hr>
               </div>
             </div>

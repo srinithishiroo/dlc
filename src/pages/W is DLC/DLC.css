@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.what-dlc {
+  background-image: url("https://www.dellaleaders.com/images/about-banner.jpg");
+}
+.what-dlc {
+  padding: 20%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.what-dlc h1 {
+  color: white;
+  font-size: 50px;
+}
+.del .img {
+  height: 300px;
+}
+
+.purpose h1 {
+  font-size: 35px;
+  color: #212529;
+  font-family: sans-serif;
+  padding-bottom: 50px;
+}
+.purpose p {
+  font-size: 25px;
+  color: rgb(59, 57, 57);
+  font-family: sans-serif;
+  line-height: 40px;
+}
+.purpose b {
+  font-size: 25px;
+  font-weight: bold;
+}
+.purpose {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 100px;
+}
+.belive {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 100px;
+}
+.belive h1 {
+  font-size: 30px;
+  font-family: sans-serif;
+  line-height: 50px;
+}
+.belive p {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #212529;
+  letter-spacing: 3px;
+}
+.apply-btn {
+  width: 220px;
+  height: 40px;
+  margin: auto;
+  margin-top: 60px;
+  font-size: 14px;
+  font-family: sans-serif;
+  background-color: #cc0000;
+  border-color: white;
+  color: white;
+  margin-bottom: 100px;
+}
+.apply-btn:hover {
+  background-color: #212529;
+  color: white;
+  border-color: white;
+}
