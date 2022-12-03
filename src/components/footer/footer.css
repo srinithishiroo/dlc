@@ -33,3 +33,8 @@
   flex-direction: row;
   gap: 15px;
 }
+
+.subscribe input {
+  height: 20px;
+  width: 250px;
+}

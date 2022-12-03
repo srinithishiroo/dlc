@@ -3,6 +3,7 @@ import React from "react";
 import Hero from "../components/hero";
 import Slides from "../components/simple/slide";
 import Caro from "../components/Caro/mulity";
+
 import Box from "../components/imagebox/box";
 import Box2 from "../components/box2/box2";
 import Mem from "../components/member/membership";
@@ -17,12 +18,13 @@ import Upcoming from "../components/upcome/up";
 import Dis from "../components/discover/dis";
 import Peo from "../components/people/people";
 
-const Home = () => {
+function Home() {
   return (
     <>
       <Hero />
       <Slides />
       <Caro />
+
       <Box />
       <Box2 />
       <Mem />
@@ -38,5 +40,5 @@ const Home = () => {
       <Peo />
     </>
   );
-};
+}
 export default Home;

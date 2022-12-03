@@ -49,7 +49,7 @@ const Footer = () => {
           <div>Contact Us</div>
           <div>Legal</div>
           <div>Never miss an update</div>
-          <div>
+          <div className="subscribe">
             <input
               type="text"
               placeholder="Subscribe to our newsletter"

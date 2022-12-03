@@ -35,7 +35,7 @@
   font-weight: 500;
   font-family: "Saira Condensed", sans-serif;
 }
-.test {
+/* .test {
   background-color: #cc0000;
   height: 30px;
   width: 90px;
@@ -45,8 +45,19 @@
   font-family: "Saira Condensed", sans-serif;
   color: white;
   margin-top: 20px;
+} */
+
+.textbu button {
+  background-color: #cc0000;
+  height: 30px;
+  width: 90px;
+  font-size: 8px;
+  border: 1px solid #cc0000;
+  font-family: "Saira Condensed", sans-serif;
+  color: white;
+  margin-top: 20px;
 }
-button:hover {
+.testbu button :hover {
   background-color: white;
   border: 1px solid #cc0000;
   color: #cc0000;

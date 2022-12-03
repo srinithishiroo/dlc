@@ -5,18 +5,17 @@ const JoinUs = () => {
   return (
     <div className="form">
       <div className="content-form">
-        <b>Join Our DLC Global Community</b> <br />
-        <p>
-          We are a global community of Entrepreneurs, Professionals & Young
-          Leaders across the world
-        </p>
-        <br />
-        <h1>
+        <div className="pa_rra">
+          <h1>Join Our DLC Global Community</h1>
+          <h1>
+            We are a global community of Entrepreneurs, Professionals & Young
+            Leaders across the world
+          </h1>
           We will help high performance people actualize the full potential of
           their lives. Members of our community have a passion for impact and
-          believe in <br /> the power of technology to create a better future
+          believe in <br></br>the power of technology to create a better future
           for all humanity.
-        </h1>
+        </div>
         <div className="details">
           <select>
             <option value="0">Mr</option>
@@ -76,7 +75,7 @@ const JoinUs = () => {
           giving back to society and created Social Impact in the community at
           large
         </p>
-        <button className="bttn">JOIN DLCGLOBALMOVEMENT</button>
+        <button className="bttn">JOIN DLC GLOBALMOVEMENT</button>
       </div>
     </div>
   );

@@ -3,6 +3,16 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+/* .human p {
+  font-size: 89px;
+  text-align: center;
+} */
+
+.pa_rra {
+  font-family: "Manrope";
+}
+
 .form {
   text-align: center;
   padding-bottom: 200px;

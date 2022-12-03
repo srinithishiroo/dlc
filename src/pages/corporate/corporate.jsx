@@ -6,7 +6,7 @@ const Corpo = () => {
     <div className="hi">
       <div className="corpo-mem">
         <div className="memm">
-          <h1>DLC CORPORATE MEMBERSHIP</h1>
+          <h1>DLC CORPORATE MEMBERSHIP</h1> <br></br>
           <b>
             We work with leading companies globally to support <br /> their
             senior leadership & decision makers to transform <br /> from “A Life
@@ -17,10 +17,10 @@ const Corpo = () => {
             satisfaction.​ <br /> <br /> Equip your corporate top-management
             team with the <br /> tools, exposure and connects they need to excel
             as
-            <br /> leaders.​
+            <br /> leaders.​ <br></br> <br></br> <br></br>
+            <button className="apply-btt">APPLY CORPORATE MEMPERSHIP</button>
           </b>
         </div>
-        <button className="apply-btt">APPLY CORPORATE MEMPERSHIP</button>
       </div>
       <div className="offerss">
         <h1>DLC CORPORATE MEMBERSHIP OFFERINGS</h1>

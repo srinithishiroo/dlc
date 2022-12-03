@@ -2,6 +2,9 @@ import React from "react";
 import "./summits.css";
 import sum from "../../assets/images/banner.jpg";
 import Awards from "../../assets/images/awards.png";
+import Why1 from "../../assets/images/why1.png";
+import Why2 from "../../assets/images/why3.png";
+import Why3 from "../../assets/images/why4.png";
 
 const Summit = () => {
   return (
@@ -57,6 +60,43 @@ const Summit = () => {
         </p>
         <br></br>
       </div>
+      <div className="sli_im">
+        <div className="twesummits">
+          <p>
+            <h2>WHY ATTEND</h2>
+            The DLC Global Summits have been meticulously designed like no other
+            summit. Apart from specially curated<br></br> sessions with
+            distinguished speakers, the summits would have a number of varied
+            experiences and <br></br>
+            entertainment programmes that would provide a marvelously
+            all-encompassing experience.
+          </p>
+        </div>
+      </div>
+
+      {/* <div className="box_imagess">
+        <div
+          className="immaages"
+          style={{
+            backgroundImage: `url(${Why1} linear-gradient(to bottom, rgba(.9, 0, 0, 0) 0, #000 )`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            height: "350px",
+            width: "350px",
+          }}
+        >
+          <p>
+            <b>
+              LEARN FROM THE INDUSTRY <br></br> EXPERTS <br></br>
+            </b>{" "}
+            <br></br>
+            DLC Global Summits will provide invitees the <br></br> opportinity
+            to meet and interact with industry <br></br>leaders in an intimate
+            environment <br></br> <br></br>
+            <button>MORE INFO</button>
+          </p>
+        </div>
+      </div> */}
     </>
   );
 };

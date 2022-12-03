@@ -30,7 +30,9 @@ const Photos = () => {
             <p>CONUTRIES</p>
           </span>
         </div>
-        <button className="test">TESTIMONIALS</button>
+        <div className="textbu">
+          <button className="test">TESTIMONIALS</button>
+        </div>
       </div>
     </div>
   );
