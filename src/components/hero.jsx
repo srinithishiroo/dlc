@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import Della from "../assets/images/homedella.jpg";
+import Bangloreworkshop from "../assets/images/bengaloreworkshop.webp";
 
 const Hero = () => {
   return (
@@ -30,7 +30,7 @@ const Hero = () => {
         <div className="box_over"></div>
       </div>
       <div className="videoo">
-        <img src={Della} width="738px" height="410px" />
+        <img src={Bangloreworkshop} width="738px" height="450px" />
       </div>
     </div>
   );
